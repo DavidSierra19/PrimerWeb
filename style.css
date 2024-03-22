@@ -29,6 +29,14 @@ body{
     width: auto;
     cursor: pointer;
 }
+header{
+    position: fixed;
+    padding-bottom: 80px;
+}
+main{
+    padding:88px 0 40px 0;
+
+}
 header h1{
     position: absolute;
 }
@@ -78,7 +86,117 @@ header h1{
     width: 100%;
     height: auto;
 }
+.pie{
+    background-color: #025159 ;
+    padding:20px 0PX; 
+    width: 100%;
+    color: white;
+}
 
+.footer-superior{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+.bit img{
+    height: 60px;
+    padding-top: 10px;
+    width: 120px;
+}
+
+.ibero img{
+    height: 60px;
+    width: 130px;
+    padding-top: 10px;
+}
+.bit img:hover{
+    height: 70px;
+    padding-top: 10px;
+    width: 150px;
+}
+
+.ibero img:hover{
+    height: 70px;
+    width: 160px;
+    padding-top: 10px;
+}
+.footer-redes ul{
+    display: flex;
+}
+.footer-redes ul li{
+    padding: 10px 10px;
+}
+.fb:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+.in:hover{
+    background:linear-gradient(rgb(233, 89, 195), rgb(233, 154, 8));
+    border-radius: 50%;
+}
+.li:hover{
+    background-color: rgb(58, 58, 192);
+    border-radius: 50%;
+}
+.footer-final{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.Hola{
+    display:flex;
+}
+.Presentacion{
+    text-align: center;
+    align-self: center;
+    font-size: 30px;
+    padding-left: 10%;
+}
+.DavidSierra{
+    height: 400px;
+    padding:10px 10%;
+}
+.Aslan{
+    text-align: center;
+    padding:20px 20px 0 20px;
+}
+section video{
+    width:420px; 
+    height:380px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+.Mirutina{
+    background-color: #012E40;
+    color: white;
+    display: list-item;
+    justify-content: center;
+    text-align: center;
+}
+.TextoR{
+    padding: 20px;
+    font-size: 28px;
+}
+section ul{
+    color: white;
+    text-decoration:solid;
+    list-style:circle;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.PreAslan{
+    font-size: 24px;
+    padding:0 20px 10px 20px;
+}
+/* Desarrollo Responsivo para dispositivo  de menos de 950 pixeles de ancho */
 @media screen and (max-width: 950px){
     .LinkLogo{
         position: absolute;
@@ -108,5 +226,40 @@ header h1{
     }
     #check:checked ~ ul{
         left:0;
+    }
+
+    .bit img{
+        height: 50px;
+        padding-top: 10px;
+        width: 100px;
+    }
+    
+    .ibero img{
+        height: 50px;
+        width: 120px;
+        padding-top: 10px;
+        padding-left: 40px ;
+    }
+
+    .Hola{
+        display:block;
+        
+    }
+    .Presentacion{
+        text-align: center;
+        align-self: center;
+        font-size: 20px;
+        padding: 5%;
+    }
+    .DavidPrueba{
+        background-color: black;
+        
+    }
+    .DavidSierra{
+        height: 300px;      
+    }
+    section video{
+        width:320px; 
+        height:260px;
     }
 }
