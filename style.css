@@ -1,5 +1,4 @@
-/* @media screen and (max-width; 767px){}
-@media screen and (min-width; 768px)and (max-width; 1023px){}
+/*@media screen and (min-width; 768px)and (max-width; 1023px){}
 @media screen and (min-width; 1024px){} */
 
 *,
@@ -9,45 +8,105 @@
  margin: 0;
  padding: 0;
  text-decoration: none;
+ list-style: none;
 }
 
 header{
     width: 100%;
-    background-color: #4C594F;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
+    height: 80px;
+    background-color: #025159;
 }
 
 body{
-    background-color: #BFBFB8;
+    background-color: #038C8C;
+}
+.LinkLogo{
+    position: absolute;
+    padding: 10px 10px ;
 }
 .Logo{
     height: 60px;
     width: auto;
-    padding-left: 1%;
     cursor: pointer;
 }
-.Navegador{
-    padding-right: 1%;
-    padding-left: 0%;
-    
+header h1{
+    position: absolute;
 }
-
-.Navegador a{
-    color: #BFBFB8;
-    padding: 10px;
-    
-}
-.Navegador a:hover{
-    text-decoration: none;
-    color:white;
-    background-color: rgb(11, 58, 1);
-    border-radius: 10%;
-}
-
 .Titulo{
+    padding-top: 15px;
+    left:40%;
     color: white;
     font-family: "Truculenta", sans-serif;
     font-optical-sizing: auto;
+}
+.Navegador ul{
+    float:right;
+    padding-right: 15px;
+}
+.Navegador ul li{
+    display: inline-block;
+    line-height: 80px;
+
+}
+.Navegador ul li a,i{
+    color: #BFBFB8;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 10px;  
+}
+
+.Navegador ul li a:hover{
+    color:white;
+    background-color: #012E40;
+    border-radius: 10%;
+    transition: .5s;  
+}
+
+#menu{
+    color: #BFBFB8;
+    float: right;
+    line-height: 80px;
+    padding-right: 10px;
+    cursor: pointer;
+    display: none;    
+}
+
+#check{
+    display: none;
+}
+.Ojo{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 950px){
+    .LinkLogo{
+        position: absolute;
+        padding: 20px 10px ;
+    }
+    .Logo{
+        height: 40px;
+        width: auto;
+    }
+    #menu{
+        display: block;
+    }
+    .Navegador ul{
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        background-color: #012E40;
+        top:70px;
+        left:-100%;
+        text-align: center;
+        
+    }
+    
+    .Navegador ul li a,i{
+        padding: 5px 5px; 
+        font-size: 12px;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
 }
