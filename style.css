@@ -163,6 +163,26 @@ header h1{
     text-align: center;
     padding:20px 20px 0 20px;
 }
+.fb1:hover{
+    background-color: blue;
+    border-radius: 10%;
+    color: white;
+}
+.in1:hover{
+    background:linear-gradient(rgb(233, 89, 195), rgb(233, 154, 8));
+    border-radius: 10%;
+    color: white;
+}
+.li1:hover{
+    background-color: rgb(58, 58, 192);
+    border-radius: 10%;
+    color: white;
+}
+.wa1:hover{
+    background-color: rgb(45, 234, 67);
+    border-radius: 10%;
+    color: white;
+}
 section video{
     width:420px; 
     height:380px;
@@ -174,7 +194,7 @@ section video{
 }
 .Mirutina{
     background-color: #012E40;
-    color: white;
+    color: #F28705;
     display: list-item;
     justify-content: center;
     text-align: center;
@@ -184,7 +204,7 @@ section video{
     font-size: 28px;
 }
 section ul{
-    color: white;
+    color: #F28705;
     text-decoration:solid;
     list-style:circle;
     text-align: center;
@@ -196,6 +216,18 @@ section ul{
     font-size: 24px;
     padding:0 20px 10px 20px;
 }
+
+.contacto1{
+    display: flex;
+    justify-content: center;
+}
+.redes1{
+    padding: 40px;
+}
+.mapa{
+
+}
+
 /* Desarrollo Responsivo para dispositivo  de menos de 950 pixeles de ancho */
 @media screen and (max-width: 950px){
     .LinkLogo{
