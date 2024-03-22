@@ -1,0 +1,53 @@
+/* @media screen and (max-width; 767px){}
+@media screen and (min-width; 768px)and (max-width; 1023px){}
+@media screen and (min-width; 1024px){} */
+
+*,
+*::before,
+*::after{
+ box-sizing:border-box;
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background-color: #4C594F;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background-color: #BFBFB8;
+}
+.Logo{
+    height: 60px;
+    width: auto;
+    padding-left: 1%;
+    cursor: pointer;
+}
+.Navegador{
+    padding-right: 1%;
+    padding-left: 0%;
+    
+}
+
+.Navegador a{
+    color: #BFBFB8;
+    padding: 10px;
+    
+}
+.Navegador a:hover{
+    text-decoration: none;
+    color:white;
+    background-color: rgb(11, 58, 1);
+    border-radius: 10%;
+}
+
+.Titulo{
+    color: white;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+}
