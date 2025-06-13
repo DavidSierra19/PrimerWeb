@@ -34,7 +34,7 @@
 
 | Proyecto | Descripción | Tecnologías |
 |----------|-------------|-------------|
-| [Nombre del Proyecto](URL) | Breve descripción del proyecto | HTML, CSS, JS |
+| [Api](photographyProject) | Breve descripción del proyecto | HTML, CSS, JS |
 | [Nombre del Proyecto](URL) | Otro proyecto interesante | React, Node.js, MongoDB |
 
 ---
