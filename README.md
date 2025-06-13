@@ -1,17 +1,18 @@
-<h1 align="center">¡Hola! 👋 Soy [Tu Nombre]</h1>
+<h1 align="center">¡Hola! 👋 Soy David Sierra (Damsdigital.dev) </h1>
 
 <p align="center">
-  Desarrollador web full stack con pasión por crear soluciones prácticas y visualmente atractivas.
+  Desarrollador Web e Ingeniero TI enfocado en infraestructura TI, automatización y soluciones funcionales con tecnologías modernas.
 </p>
 
 ---
 
 ### 🚀 Sobre mí
 
-- 💻 Egresado de un bootcamp de desarrollo web full stack.
-- 🎯 En proceso de construir proyectos reales para fortalecer mi portafolio.
-- 📚 En constante aprendizaje: actualmente profundizando en [React | Angular | Node.js].
-- 🌍 Vivo en [Tu ciudad].
+- 🤖 Apasionado por crear soluciones funcionales y optimizar procesos TI.
+- 🎯 Actualmente desarrollando proyectos personales para fortalecer mi portafolio.
+- 📚 En constante aprendizaje: profundizando en Angular y Node.js.
+- 🐳 Interesado en la automatización con herramientas como Docker y n8n.
+- 🌍 Vivo en Bogotá D.C., Colombia.
 
 ---
 
@@ -38,9 +39,9 @@
 
 ### 📫 Cómo contactarme
 
-- 📧 Email: [tucorreo@gmail.com](mailto:tucorreo@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/tuusuario](https://linkedin.com/in/tuusuario)
-- 🌐 Portafolio web: [https://tuusuario.github.io](https://tuusuario.github.io)
+- 📧 Email: [david-sierra19@outlook.com](mailto:david-sierra19@outlook.com)
+- 💼 LinkedIn: [linkedin.com/in/davidsierra04](https://www.linkedin.com/in/davidsierra04)
+- 🌐 Portafolio web: [https://damsdigital.dev](https://damsdigital.dev)
 
 ---
 
